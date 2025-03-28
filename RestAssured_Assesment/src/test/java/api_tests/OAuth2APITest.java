@@ -64,7 +64,7 @@ public class OAuth2APITest {
 	{
 	// 🔹 Create Resource (POST)
 		String requestBody="{\r\n"
-				+ "    \"short_description\": \"My laptop problem is fixed\"\r\n"
+				+ "    \"short_description\": \"My laptop problem is fixed now\"\r\n"
 				+ "}";
 		status = "OK";
 		response = APIUtils.sendPutWithOAuth(tablename + "/" + incidentID, t, requestBody);
