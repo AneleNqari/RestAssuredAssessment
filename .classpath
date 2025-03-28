@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="RestAssured_Assesment/src/main/java"/>
+	<classpathentry kind="src" path="RestAssured_Assesment/src/test/java"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/AneleNqari/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar" sourcepath="C:/Users/AneleNqari/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="io.rest-assured"/>
+			<attribute name="maven.artifactId" value="rest-assured"/>
+			<attribute name="maven.version" value="5.3.0"/>
+			<attribute name="maven.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/AneleNqari/.m2/repository/org/wiremock/wiremock-standalone/3.12.0/wiremock-standalone-3.12.0.jar" sourcepath="C:/Users/AneleNqari/.m2/repository/org/wiremock/wiremock-standalone/3.12.0/wiremock-standalone-3.12.0-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.wiremock"/>
+			<attribute name="maven.artifactId" value="wiremock-standalone"/>
+			<attribute name="maven.version" value="3.12.0"/>
+			<attribute name="maven.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="RestAssured_Assesment/target/classes"/>
+</classpath>
