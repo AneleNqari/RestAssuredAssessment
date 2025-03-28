@@ -49,7 +49,6 @@ public class OAuth2APITest {
 		//response.prettyPrint();
 		incidentID = response.jsonPath().getString("result.sys_id");
 		validateStatusCode(response, 201, status);
-		System.out.println("====");
 		System.out.println("🟢 🟢 🟢 🟢 🟢 🟢 🟢 🟢 🟢 🟢 🟢 🟢 🟢 🟢 🟢 🟢 🟢 🟢 🟢 🟢 🟢 🟢");
 	}
 	public void getWithToken(String t)
