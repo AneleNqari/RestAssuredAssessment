@@ -49,7 +49,7 @@ public class OAuth2APITest {
 		//response.prettyPrint();
 		incidentID = response.jsonPath().getString("result.sys_id");
 		validateStatusCode(response, 201, status);
-		System.out.println("=======================================");
+		System.out.println("====");
 		System.out.println("🟢 🟢 🟢 🟢 🟢 🟢 🟢 🟢 🟢 🟢 🟢 🟢 🟢 🟢 🟢 🟢 🟢 🟢 🟢 🟢 🟢 🟢");
 	}
 	public void getWithToken(String t)
@@ -65,7 +65,7 @@ public class OAuth2APITest {
 	{
 	// 🔹 Create Resource (POST)
 		String requestBody="{\r\n"
-				+ "    \"short_description\": \"My laptop problem is fixed now\"\r\n"
+				+ "    \"short_description\": \"My laptop problem is fixed now .\"\r\n"
 				+ "}";
 		status = "OK";
 		response = APIUtils.sendPutWithOAuth(tablename + "/" + incidentID, t, requestBody);
